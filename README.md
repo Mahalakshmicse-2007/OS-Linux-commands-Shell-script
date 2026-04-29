@@ -52,15 +52,13 @@ cat < file2
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ <img width="342" height="82" alt="Screenshot 2026-04-25 145028" src="https://github.com/user-attachments/assets/1008051b-ec96-4bef-b054-d5244ea44517" />
 comm file1 file2
  ## OUTPUT
-
- 
+<img width="259" height="165" alt="Screenshot 2026-04-26 224734" src="https://github.com/user-attachments/assets/0414277e-e471-4e02-b08e-256722e6e1a6" /> 
 diff file1 file2
 ## OUTPUT
-
-
+<img width="263" height="213" alt="Screenshot 2026-04-26 224745" src="https://github.com/user-attachments/assets/e06e1011-21c2-4e9d-998b-88246cd1e275" />
 #Filters
 
 ### Create the following files file11, file22 as follows:
@@ -71,6 +69,8 @@ Hello world
 This is my world
 ^d
 ```
+<img width="187" height="86" alt="Screenshot 2026-04-26 224807" src="https://github.com/user-attachments/assets/ab60b332-4807-48f0-9b22-3d41f82e36a0" />
+
 cat > file22
 ```
 1001 | Ram | 10000 | HR
@@ -78,13 +78,12 @@ cat > file22
 1003 | Joe |  7000 | Developer
 ^d
 ```
+<img width="260" height="103" alt="Screenshot 2026-04-26 224813" src="https://github.com/user-attachments/assets/af835063-302b-41f6-94e4-c754707b2013" />
 
 
 cut -c1-3 file11
 ## OUTPUT
-
-
-
+<img width="233" height="79" alt="Screenshot 2026-04-26 224819" src="https://github.com/user-attachments/assets/59694506-6091-46c2-90a0-501eae6154f2" />
 
 cut -d "|" -f 1 file22
 ## OUTPUT
